@@ -1,4 +1,4 @@
-# New Relic Ruby Agent
+# New Relic Ruby Agent forked for rails 1.2.x apps
 
 New Relic is a performance management system, developed by
 New Relic, Inc (http://www.newrelic.com).  It provides you with deep
