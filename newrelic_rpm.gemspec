@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.version = NewRelic::VERSION::STRING
   s.required_ruby_version = '>= 1.8.7'
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
-  s.authors = [ "Tim Krajcar", "Matthew Wear", "Katherine Wu" ]
+  s.authors = [ "Tim Krajcar", "Matthew Wear", "Katherine Wu", "Constantin Gavrilescu" ]
   s.date = Time.now.strftime('%Y-%m-%d')
   s.licenses    = ['New Relic', 'MIT', 'Ruby']
   s.description = <<-EOS
@@ -36,7 +36,7 @@ EOS
   file_list << build_file_path if File.exist?(build_file_path)
   s.files = file_list
 
-  s.homepage = "http://www.github.com/newrelic/rpm"
+  s.homepage = "http://www.github.com/costi/rpm"
   s.require_paths = ["lib"]
   s.rubygems_version = Gem::VERSION
   s.summary = "New Relic Ruby Agent"
